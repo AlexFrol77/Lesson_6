@@ -3,9 +3,9 @@
 class Count {
 public:
 	Count(int temp);
-	void countPlus(int& count_);
-	void countMinus(int& count_);
-	void print(int& count_);
+	void countPlus();
+	void countMinus();
+	void print();
 private:
 	int count_;
 };

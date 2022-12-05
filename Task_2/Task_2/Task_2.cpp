@@ -27,13 +27,13 @@ int main(int argv, char** argc) {
 		std::cin >> oper;
 		switch (oper) {
 		case '+':
-			count.countPlus(temp);
+			count.countPlus();
 			break;
 		case '-':
-			count.countMinus(temp);
+			count.countMinus();
 			break;
 		case '=':
-			count.print(temp);
+			count.print();
 		}
 	} while (oper != 'x' && oper != 'ч');
 
